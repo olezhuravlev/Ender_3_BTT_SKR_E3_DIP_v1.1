@@ -60,9 +60,14 @@
 //
 // Filament Runout Sensor
 //
-#ifndef FIL_RUNOUT_PIN
-  #define FIL_RUNOUT_PIN                    PC2   // E0-STOP
-#endif
+//#ifndef FIL_RUNOUT_PIN
+  //#define FIL_RUNOUT_PIN                    PC2   // E0-STOP
+//#endif
+
+//
+// Power Supply Control
+//
+#define PS_ON_PIN                             PC2   // E0-STOP
 
 //
 // Steppers
